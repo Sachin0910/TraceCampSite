@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sachin Patel</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body id="top">
+        <header class="fixed w-full bg-indigo-700 backdrop-filter backdrop-blur-xl bg-opacity-60 border border-indigo-400 text-white md:flex justify-between">
+            <a class="font-bold block px-6 py-2 hover:bg-gray-800" href="#top">Sachin Patel</a>
+            <nav>
+                <ul class="md:flex">
+                    <li>
+                        <a class="block px-6 py-2 hover:bg-gray-800" href="#hello">Home</a>
+                    </li>
+                    <li>
+                        <a class="block px-6 py-2 hover:bg-gray-800" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="block px-6 py-2 hover:bg-gray-800" href="#our-team">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hello" class="h-screen bg-indigo-800 text-white text-center grid place-items-center">
+                <div>
+                    <p class="text-lg font-bold uppercase tracking-wider">Hi it's me, Sachin from </p>
+                    <h1 class="font-bold text-8xl leading-none">Marion, SC</h1>
+                    <p class="font-mono text-lg">Major: Computer Science & Psychology</p>
+                    <a  href="https://www.linkedin.com/in/nolan-hamel/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        class="mt-10 bg-white rounded-lg px-8 py-4 text-black inline-block hover:bg-gray-800 hover:text-white">
+                        Connect
+                    </a>
+                </div>
+            </section>
+
+            <section id="about" class="bg-indigo-200 pt-10">
+                <h2 class="text-center text-2xl font-bold">About</h2>
+                <ul class="grid p-10 gap-10 md:grid-cols-3">
+                    <li class="bg-white shadow rounded-lg overflow-hidden">
+                        <img src="programming.jpg" class="w-full"/>
+                        <div class="p-4">
+                            <h3 class="font-bold">Programming</h3>
+                            <p>I love programming -- I'm most experienced with C/C++, Matlab, and Python</p>
+                        </div>
+                    </li>
+                    <li class="bg-white shadow rounded-lg overflow-hidden">
+                        <img src="hiking.jpg" class="w-full"/>
+                        <div class="p-4">
+                            <h3 class="font-bold">Hiking</h3>
+                            <p>I love the outdoors and I enjoy traveling and going on hikes</p>
+                        </div>
+                    </li>
+                    <li class="bg-white shadow rounded-lg overflow-hidden">
+                        <img src="food.jpg" class="w-full"/>
+                        <div class="p-4">
+                            <h3 class="font-bold">Food</h3>
+                            <p>I love preparing and eating delicious meals</p>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </section>
+
+            <section id="our-team" class="text-gray-800 body-font bg-indigo-100">
+              <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-col text-center w-full mb-20">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">Our Team</h1>
+                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are devoted to providing an amazing experience when using this website</p>
+                </div>
+                <div class="flex flex-wrap -m-2">
+                  <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg shadow-lg bg-white">
+                      <img alt="team" class="w-40 h-40 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="nolan.jpg">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Nolan Hamel</h2>
+                        <p class="text-gray-500">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg shadow-lg bg-white">
+                      <img alt="team" class="w-40 h-40 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="sophie.jpg">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Sophie Nielsen</h2>
+                        <p class="text-gray-500">Emotional Support</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg shadow-lg bg-white">
+                      <img alt="team" class="w-40 h-40 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="piper.png">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Piper Hamel</h2>
+                        <p class="text-gray-500">IT Manager</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-2 lg:w-1/2 md:w-1/2 w-full">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg shadow-lg bg-white">
+                      <img alt="team" class="w-40 h-40 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="boone.png">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Boone (Boonie Scoonie) Hamel</h2>
+                        <p class="text-gray-500">Customer Service Manager</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+        </main>
+
+        <footer class="text-white bg-gray-800 p-10 italic text-center">
+            © 2021 Nolan Hamel. All rights reserved.
+        </footer>
+    </body>
+</html>
